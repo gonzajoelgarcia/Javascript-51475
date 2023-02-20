@@ -1,0 +1,26 @@
+body {
+  background: rgb(0, 0, 0);
+  font-family: sans-serif;
+}
+
+#Calculadora {
+  width: 345px;
+  height: 420px;
+  background-color: white;
+  color: #fff;
+  padding: 10px;
+  margin: 100px auto;
+}
+
+h1 {
+  font-size: 30px;
+  text-align: center;
+  color: blue;
+  margin-bottom: 35px;
+}
+
+p {
+  color: black;
+  display: flex;
+  justify-content: center;
+}
