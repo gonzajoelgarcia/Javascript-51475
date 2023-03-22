@@ -5,7 +5,7 @@ const productos = [
   {
     id: "sudadera-01",
     titulo: "Sudadera LA",
-    imagen: "./img/sudadera-01.jpg",
+    imagen: "/img/sudadera-01.jpg",
     categoria: {
       nombre: "Sudaderas",
       id: "sudaderas",
@@ -15,7 +15,7 @@ const productos = [
   {
     id: "sudadera-02",
     titulo: "Sudadera Positive",
-    imagen: "./img/sudadera-02.jpg",
+    imagen: "../img/sudadera-02.jpg",
     categoria: {
       nombre: "Sudaderas",
       id: "sudaderas",
@@ -25,7 +25,7 @@ const productos = [
   {
     id: "sudadera-03",
     titulo: "Sudadera Tipografica",
-    imagen: "./img/sudadera-03.jpg",
+    imagen: "../img/sudadera-03.jpg",
     categoria: {
       nombre: "Sudaderas",
       id: "sudaderas",
@@ -35,7 +35,7 @@ const productos = [
   {
     id: "sudadera-04",
     titulo: "Sudadera Brooklyn",
-    imagen: "./img/sudadera-04.jpg",
+    imagen: "../img/sudadera-04.jpg",
     categoria: {
       nombre: "Sudaderas",
       id: "sudaderas",
@@ -46,7 +46,7 @@ const productos = [
   {
     id: "camiseta-01",
     titulo: "Camiseta CHANGE",
-    imagen: "./img/camiseta-01.jpg",
+    imagen: "../img/camiseta-01.jpg",
     categoria: {
       nombre: "Camisetas",
       id: "camisetas",
@@ -56,7 +56,7 @@ const productos = [
   {
     id: "camiseta-02",
     titulo: "Camiseta Joystick",
-    imagen: "./img/camiseta-02.jpg",
+    imagen: "../img/camiseta-02.jpg",
     categoria: {
       nombre: "Camisetas",
       id: "camisetas",
@@ -66,7 +66,7 @@ const productos = [
   {
     id: "camiseta-03",
     titulo: "Camiseta GROUND",
-    imagen: "./img/camiseta-03.jpg",
+    imagen: "../img/camiseta-03.jpg",
     categoria: {
       nombre: "Camisetas",
       id: "camisetas",
@@ -76,7 +76,7 @@ const productos = [
   {
     id: "camiseta-04",
     titulo: "Camiseta Palms",
-    imagen: "./img/camiseta-04.jpg",
+    imagen: "../img/camiseta-04.jpg",
     categoria: {
       nombre: "Camisetas",
       id: "camisetas",
@@ -87,7 +87,7 @@ const productos = [
   {
     id: "pantalones-01",
     titulo: "Pantalones Blue",
-    imagen: "./img/pantalones-01.jpg",
+    imagen: "../img/pantalones-01.jpg",
     categoria: {
       nombre: "Pantalones",
       id: "pantalones",
@@ -97,7 +97,7 @@ const productos = [
   {
     id: "pantalones-02",
     titulo: "Pantalones JEAN",
-    imagen: "./img/pantalones-02.jpg",
+    imagen: "../img/pantalones-02.jpg",
     categoria: {
       nombre: "Pantalones",
       id: "pantalones",
@@ -107,7 +107,7 @@ const productos = [
   {
     id: "pantalones-03",
     titulo: "Pantalones Yellow",
-    imagen: "./img/pantalones-03.jpg",
+    imagen: "../img/pantalones-03.jpg",
     categoria: {
       nombre: "Pantalones",
       id: "pantalones",
@@ -117,7 +117,7 @@ const productos = [
   {
     id: "pantalones-04",
     titulo: "Pantalones 0DD",
-    imagen: "./img/pantalones-04.jpg",
+    imagen: "../img/pantalones-04.jpg",
     categoria: {
       nombre: "Pantalones",
       id: "pantalones",
