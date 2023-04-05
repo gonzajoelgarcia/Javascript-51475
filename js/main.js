@@ -1,7 +1,7 @@
 //! productosarray
 
 const productos = [
-  //! SUDADERAS
+  //! Buzos
   {
     id: "sudadera-01",
     titulo: "Sudadera LA",
@@ -24,7 +24,7 @@ const productos = [
   },
   {
     id: "sudadera-03",
-    titulo: "Sudadera Tipografica",
+    titulo: "Sudadera Panda",
     imagen: "../img/sudadera-03.jpg",
     categoria: {
       nombre: "Sudaderas",
@@ -42,10 +42,10 @@ const productos = [
     },
     precio: 4620,
   },
-  //! CAMISETAS
+  //! REMERAS
   {
     id: "camiseta-01",
-    titulo: "Camiseta CHANGE",
+    titulo: "Remeras Paris",
     imagen: "../img/camiseta-01.jpg",
     categoria: {
       nombre: "Camisetas",
@@ -55,7 +55,7 @@ const productos = [
   },
   {
     id: "camiseta-02",
-    titulo: "Camiseta Joystick",
+    titulo: "Camiseta LETRAS",
     imagen: "../img/camiseta-02.jpg",
     categoria: {
       nombre: "Camisetas",
@@ -133,17 +133,19 @@ const tituloPrincipal = document.querySelector("#titulo-principal");
 let botonesAgregar = document.querySelectorAll(".producto-agregar");
 const numerito = document.querySelector("#numerito");
 
+//! Cargar los productos
 function cargarProductos(productosElegidos) {
   contenedorProductos.innerHTML = "";
   productosElegidos.forEach((producto) => {
+    const { imagen, titulo, precio, id } = producto; //! revisar
     const div = document.createElement("div");
     div.classList.add("producto");
     div.innerHTML = `
-        <img class="producto-imagen" src="${producto.imagen}" alt="${producto.titulo}">
+        <img class="producto-imagen" src="${imagen}" alt="${titulo}">
                     <div class="producto-detalles">
-                        <h3 class="producto-titulo">${producto.titulo}</h3>
-                        <p class="producto-precio">${producto.precio}</p>
-                        <button class="producto-agregar" id="${producto.id}">Agregar</button>
+                        <h3 class="producto-titulo">${titulo}</h3>
+                        <p class="producto-precio">${precio}</p>
+                        <button class="producto-agregar" id="${id}">Agregar</button>
                     </div>
         `;
 
@@ -155,11 +157,11 @@ function cargarProductos(productosElegidos) {
 
 cargarProductos(productos);
 
+//! Click en c/categoria
 botonesCategorias.forEach((boton) => {
   boton.addEventListener("click", (e) => {
     botonesCategorias.forEach((boton) => boton.classList.remove("active"));
     e.currentTarget.classList.add("active");
-
     if (e.currentTarget.id != "todos") {
       const productoCategoria = productos.find(
         (producto) => producto.categoria.id === e.currentTarget.id
