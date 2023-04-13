@@ -1,7 +1,7 @@
 //! productosarray
 let productos = [];
 
-fetch("./js/indumentaria.json")
+fetch("./indumentaria.json")
   .then((response) => response.json())
   .then((data) => {
     productos = data;
