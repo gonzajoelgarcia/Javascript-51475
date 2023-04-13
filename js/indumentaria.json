@@ -2,7 +2,7 @@
   {
     "id": "sudadera-01",
     "titulo": "Sudadera LA",
-    "imagen": "../img/sudadera-01.jpg",
+    "imagen": "/img/sudadera-01.jpg",
     "categoria": {
       "nombre": "Sudaderas",
       "id": "sudaderas"
