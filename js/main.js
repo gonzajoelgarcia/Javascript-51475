@@ -1,4 +1,3 @@
-//! productosarray
 let productos = [];
 
 fetch("/js/indumentaria.json")
