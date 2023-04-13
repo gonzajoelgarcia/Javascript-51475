@@ -12,7 +12,7 @@
   {
     "id": "sudadera-02",
     "titulo": "Sudadera Positive",
-    "imagen": "/img/sudadera-02.jpg",
+    "imagen": "../img/sudadera-02.jpg",
     "categoria": {
       "nombre": "Sudaderas",
       "id": "sudaderas"

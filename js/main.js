@@ -18,7 +18,7 @@ const numerito = document.querySelector("#numerito");
 function cargarProductos(productosElegidos) {
   contenedorProductos.innerHTML = "";
   productosElegidos.forEach((producto) => {
-    const { imagen, titulo, precio, id } = producto; //! revisar
+    const { imagen, titulo, precio, id } = producto;
     const div = document.createElement("div");
     div.classList.add("producto");
     div.innerHTML = `
