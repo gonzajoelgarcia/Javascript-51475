@@ -12,7 +12,7 @@
   {
     "id": "sudadera-02",
     "titulo": "Sudadera Positive",
-    "imagen": "../img/sudadera-02.jpg",
+    "imagen": "./img/sudadera-02.jpg",
     "categoria": {
       "nombre": "Sudaderas",
       "id": "sudaderas"
@@ -22,7 +22,7 @@
   {
     "id": "sudadera-03",
     "titulo": "Sudadera Panda",
-    "imagen": "/img/sudadera-03.jpg",
+    "imagen": "./img/sudadera-03.jpg",
     "categoria": {
       "nombre": "Sudaderas",
       "id": "sudaderas"
@@ -32,7 +32,7 @@
   {
     "id": "sudadera-04",
     "titulo": "Sudadera Brooklyn",
-    "imagen": "/img/sudadera-04.jpg",
+    "imagen": "./img/sudadera-04.jpg",
     "categoria": {
       "nombre": "Sudaderas",
       "id": "sudaderas"
@@ -42,7 +42,7 @@
   {
     "id": "camiseta-01",
     "titulo": "Remeras Paris",
-    "imagen": "/img/camiseta-01.jpg",
+    "imagen": "./img/camiseta-01.jpg",
     "categoria": {
       "nombre": "Camisetas",
       "id": "camisetas"
@@ -52,7 +52,7 @@
   {
     "id": "camiseta-02",
     "titulo": "Camiseta LETRAS",
-    "imagen": "/img/camiseta-02.jpg",
+    "imagen": "./img/camiseta-02.jpg",
     "categoria": {
       "nombre": "Camisetas",
       "id": "camisetas"
@@ -62,7 +62,7 @@
   {
     "id": "camiseta-03",
     "titulo": "Camiseta GROUND",
-    "imagen": "/img/camiseta-03.jpg",
+    "imagen": "./img/camiseta-03.jpg",
     "categoria": {
       "nombre": "Camisetas",
       "id": "camisetas"
@@ -72,7 +72,7 @@
   {
     "id": "camiseta-04",
     "titulo": "Camiseta Palms",
-    "imagen": "../img/camiseta-04.jpg",
+    "imagen": "./img/camiseta-04.jpg",
     "categoria": {
       "nombre": "Camisetas",
       "id": "camisetas"
@@ -82,7 +82,7 @@
   {
     "id": "pantalones-01",
     "titulo": "Pantalones Blue",
-    "imagen": "/img/pantalones-01.jpg",
+    "imagen": "./img/pantalones-01.jpg",
     "categoria": {
       "nombre": "Pantalones",
       "id": "pantalones"
@@ -92,7 +92,7 @@
   {
     "id": "pantalones-02",
     "titulo": "Pantalones JEAN",
-    "imagen": "/img/pantalones-02.jpg",
+    "imagen": "./img/pantalones-02.jpg",
     "categoria": {
       "nombre": "Pantalones",
       "id": "pantalones"
@@ -102,7 +102,7 @@
   {
     "id": "pantalones-03",
     "titulo": "Pantalones Yellow",
-    "imagen": "/img/pantalones-03.jpg",
+    "imagen": "./img/pantalones-03.jpg",
     "categoria": {
       "nombre": "Pantalones",
       "id": "pantalones"
@@ -112,7 +112,7 @@
   {
     "id": "pantalones-04",
     "titulo": "Pantalones 0DD",
-    "imagen": "/img/pantalones-04.jpg",
+    "imagen": "./img/pantalones-04.jpg",
     "categoria": {
       "nombre": "Pantalones",
       "id": "pantalones"
